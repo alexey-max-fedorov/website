@@ -179,8 +179,13 @@
         margin: 20px 0;
       }
     }
-  </style>
 
+    /* Add extra padding to the bottom of the body to ensure the footer doesn't overlap */
+body {
+  padding-bottom: 80px; /* Adjust this to fit the footer height */
+}
+
+  </style>
 <!-- rates section -->
 <section class="rates_section">
   <div class="container">
@@ -198,6 +203,7 @@
           <div class="detail-box">
             <h4>Standard 1</h4>
             <h5>$XX / hour</h5>
+            <a href="https://instagram.com/alexeyfedorov._" class="book-btn">Book Now</a>
           </div>
         </div>
       </div>
@@ -210,6 +216,7 @@
           <div class="detail-box">
             <h4>Standard 2</h4>
             <h5>$XX / hour</h5>
+            <a href="https://instagram.com/alexeyfedorov._" class="book-btn">Book Now</a>
           </div>
         </div>
       </div>
@@ -222,6 +229,7 @@
           <div class="detail-box">
             <h4>Standard 3</h4>
             <h5>$XX / hour</h5>
+            <a href="https://instagram.com/alexeyfedorov._" class="book-btn">Book Now</a>
           </div>
         </div>
       </div>
@@ -229,6 +237,27 @@
   </div>
 </section>
 <!-- end rates section -->
+
+<style>
+  .book-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 15px;
+    background-color: #333; /* Dark color from style.css */
+    color: #fff; /* White text */
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.3s;
+  }
+
+  .book-btn:hover {
+    background-color: #6d2d13; /* Matching footer color on hover */
+    transform: translateY(-5px);
+  }
+</style>
+
 
 
   <!-- footer section -->

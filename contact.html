@@ -1,222 +1,198 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!-- Website Title -->
   <title>Contact | Alexey Fedorov</title>
 
-<!-------------------- SEO THINGS ONLY ------------------------------------->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SEO -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alexey Fedorov's official contact info, website, photos, portfolio.">
+  <meta name="keywords" content="Alexey Fedorov, contact, model, portfolio, projects, official website">
+  <meta name="author" content="Alexey Fedorov">
 
-<!-- Primary Meta Tags -->
-<meta name="description" content="Alexey Fedorov's official contact info, website, photos, portfolio.">
-<meta name="keywords" content="Alexey Fedorov, contact, model, portfolio, projects, official website">
-<meta name="author" content="Alexey Fedorov">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Contact | Alexey Fedorov">
+  <meta property="og:description" content="Alexey Fedorov's official contact info, website, photos, portfolio.">
+  <meta property="og:image" content="https://alexey-fedorov.com/thumbnail.jpg">
+  <meta property="og:url" content="https://alexey-fedorov.com/contact">
+  <meta property="og:type" content="website">
 
-<!-- Open Graph / Facebook -->
-<meta property="og:title" content="Contact | Alexey Fedorov">
-<meta property="og:description" content="Alexey Fedorov's official contact info, website, photos, portfolio.">
-<meta property="og:image" content="https://alexey-fedorov.com/thumbnail.jpg">
-<meta property="og:url" content="https://alexey-fedorov.com/contact">
-<meta property="og:type" content="website">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact | Alexey Fedorov">
+  <meta name="twitter:description" content="Alexey Fedorov's official contact info, website, photos, portfolio.">
+  <meta name="twitter:image" content="https://alexey-fedorov.com/thumbnail.jpg">
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Contact | Alexey Fedorov">
-<meta name="twitter:description" content="Alexey Fedorov's official contact info, website, photos, portfolio.">
-<meta name="twitter:image" content="https://alexey-fedorov.com/thumbnail.jpg">
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-<!-- Favicon -->
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://alexey-fedorov.com/contact">
 
-<!-- Canonical URL -->
-<link rel="canonical" href="https://alexey-fedorov.com/contact">
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
 
-<!-- Mobile Metas -->
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<!---------------------- END SEO THINGS  ------------------------------------->
+  <style>
+    /* Ensure the whole page has gray background */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #e4e4e4;
+      font-family: 'Poppins', sans-serif;
+    }
 
+    /* Sticky footer layout */
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
 
+    .content {
+      flex: 1;
+    }
 
-<!---------------------- CSS THINGS  ------------------------------------->
-<!-- slider stylesheet -->
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    .footer_section {
+      background: #6d2d13;
+      color: #fff;
+      text-align: center;
+      padding: 30px 0;
+    }
 
-<!-- bootstrap core css -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-<!-- fonts awesome style -->
-<link href="css/font-awesome.min.css" rel="stylesheet" />
-<!-- fonts style -->
-<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
-<!-- Custom styles for this template -->
-<link href="css/style.css" rel="stylesheet" />
-<!-- responsive style -->
-<link href="css/responsive.css" rel="stylesheet" />
-<!---------------------- END CSS THINGS  ------------------------------------->
+    .footer_section a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
 
+    .footer_section a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <nav class="navbar navbar-expand-lg custom_nav-container">
-        <div class="custom_menu-btn">
-          <button onclick="openNav()">
-            <span class="s-1"> </span>
-            <span class="s-2"> </span>
-            <span class="s-3"> </span>
+
+<div class="wrapper">
+
+  <!-- Header -->
+  <header class="header_section">
+    <nav class="navbar navbar-expand-lg custom_nav-container">
+      <div class="custom_menu-btn">
+        <button onclick="openNav()">
+          <span class="s-1"></span>
+          <span class="s-2"></span>
+          <span class="s-3"></span>
+        </button>
+      </div>
+      <div id="myNav" class="overlay">
+        <div class="menu_btn-style">
+          <button onclick="closeNav()">
+            <span class="s-1"></span>
+            <span class="s-2"></span>
+            <span class="s-3"></span>
           </button>
         </div>
-        <div id="myNav" class="overlay">
-          <div class="menu_btn-style ">
-            <button onclick="closeNav()">
-              <span class="s-1"> </span>
-              <span class="s-2"> </span>
-              <span class="s-3"> </span>
-            </button>
-          </div>
-          <div class="overlay-content">
-            <a class="" href="index.html">
-              Home
-            </a>
-            <a class="" href="portfolio.html">
-              Portfolio
-            </a>
-            <a class="" href="rates.html">
-              Rates
-            </a>
-            <a class="active" href="contact.html">
-              Contact
-            </a>
-            <a class="" href="https://instagram.com/alexeyfedorov._">
-              Book Now
-            </a>
-          </div>
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="rates.html">Rates</a>
+          <a class="active" href="contact.html">Contact</a>
+          <a href="https://instagram.com/alexeyfedorov._">Book Now</a>
         </div>
-        <a class="navbar-brand" href="index.html">
-          <span>
-            Alexey Fedorov
-          </span>
-        </a>
-        <a href="https://instagram.com/alexeyfedorov._" class="call_btn">
-          Book Now
-        </a>
-      </nav>
-    </header>
-    <!-- end header section -->
-     
-  <!-- Contact Info section -->
-
-  <section class="portfolio_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Contact
-        </h2>
       </div>
-      
-  </section>
-  <!-- end portfolio section -->
+      <a class="navbar-brand" href="index.html">
+        <span>Alexey Fedorov</span>
+      </a>
+      <a href="https://instagram.com/alexeyfedorov._" class="call_btn">Book Now</a>
+    </nav>
+  </header>
 
-  <!-- contact section -->
+  <!-- Main Content -->
+  <div class="content">
+    <section class="portfolio_section layout_padding">
+        <div class="heading_container heading_center">
+          <h2>Contact</h2>
+      </div>
+    </section>
 
-  <section class="contact_section ">
-    <div class="container-fluid">
-      <div class="row">
-
-        <div class="col-md-4 detail-box detail_box_common">
-          <div>
-            <div class="heading_container">
-              <h2>
-                Get In Touch
-              </h2>
-            </div>
-            <div class="info_contact">
+    <!-- Contact Section -->
+    <section class="contact_section" style="padding: 80px 0;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10 col-sm-12 text-center">
+            <div class="detail-box" style="
+              background: #a14422; 
+              color: #fff; 
+              padding: 60px 40px; 
+              border-radius: 16px; 
+              box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+              ">
+              <h2 style="font-size: 27px; font-weight: 600;">Book Now</h2>
+              <p>Click to message me on Instagram or Email to book.</p>
               <div class="contact_link_box">
-                <a href="">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <span>
-                    Location
-                  </span>
+                <a href="https://instagram.com/alexeyfedorov._" style="display: block; color: #fff; margin: 15px 0; font-size: 18px; text-decoration: none;">
+                  <i class="fa fa-instagram" aria-hidden="true" style="margin-right: 10px;"></i> 
+                  alexeyfedorov._
                 </a>
-                <a href="">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
-                  <span>
-                    Call +01 1234567890
-                  </span>
+                <a href="mailto:alexey.max.fedorov@gmail.com" style="display: block; color: #fff; margin: 15px 0; font-size: 18px; text-decoration: none;">
+                  <i class="fa fa-envelope" aria-hidden="true" style="margin-right: 10px;"></i> 
+                  alexey.max.fedorov@gmail.com
                 </a>
-                <a href="">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <span>
-                    demo@gmail.com
-                  </span>
-                </a>
+
               </div>
-              <div class="info_social">
-                <a href="">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-              </div>
+
+              <h2 style="font-size: 27px; font-weight: 600; margin-top: 50px;">Other Pages</h2>
+
+              <a href="https://snapchat.com/t/aiv5OvVW" style="display: block; color: #fff; margin: 15px 0; font-size: 18px; text-decoration: none;">
+                <i class="fa fa-snapchat" aria-hidden="true" style="margin-right: 10px;"></i> 
+                alexey.fedorov
+              </a>
+              <a href="https://www.tiktok.com/@alexeyfedorov_?_t=ZT-8uzeNP4YPGQ&_r=1" style="display: block; color: #fff; margin: 15px 0; font-size: 18px; text-decoration: none;">
+                <i class="fa fa-tiktok" aria-hidden="true" style="margin-right: 10px;"></i> 
+                alexeyfedorov_
+              </a>
+              <a href="https://www.youtube.com/channel/UCIOFJLz46JsqgVvbd27qyWQ" style="display: block; color: #fff; margin: 15px 0; font-size: 18px; text-decoration: none;">
+                <i class="fa fa-youtube" aria-hidden="true" style="margin-right: 10px;"></i> 
+                Alexey Fedrorov
+              </a>
+
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
-  <!-- end contact section -->
-
-
-  <!-- footer section -->
+  <!-- Footer -->
   <footer class="footer_section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xl-6">
-          <p>
-            &copy; <span id="displayYear"></span> Alexey Fedorov
-        </div>
-        <div class="col-xl-6">
-          <div class="link_box">
-            <a class="" href="index.html">
-              Home
-            </a>
-            <a class="" href="portfolio.html">
-              Portfolio
-            </a>
-            <a class="" href="rates.html">
-              Rates
-            </a>
-            <a class="active" href="contact.html">
-              Contact
-            </a>
-            <a class="" href="https://instagram.com/alexeyfedorov._">
-              Book Now
-            </a>
-          </div>
-        </div>
+    <div class="container">
+      <p>&copy; 2025 Alexey Fedorov</p>
+      <div style="margin-top: 15px;">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="rates.html">Rates</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://instagram.com/alexeyfedorov._">Book Now</a>
       </div>
     </div>
   </footer>
-  <!-- footer section -->
 
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <script src="js/custom.js"></script>
+</div>
 
+<!-- Scripts -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
-
 </html>

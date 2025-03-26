@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
     <!-- Primary Meta Tags -->
-    <meta name="description" content="Alexey Fedorov's official website - photos, work, projects, and contact info.">
+    <meta name="description" content="Alexey Fedorov's official website - photos, portfolio, modeling, and contact info.">
     <meta name="keywords" content="Alexey Fedorov, portfolio, projects, model, photos, photoshoot, contact, official website">
     <meta name="author" content="Alexey Fedorov">
   
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content="Alexey Fedorov">
-    <meta property="og:description" content="Alexey Fedorov's official website - photos, work, projects, and contact info.">
+    <meta property="og:description" content="Alexey Fedorov's official website - photos, portfolio, modeling, and contact info.">
     <meta property="og:image" content="https://alexey-fedorov.com/thumbnail.jpg">
     <meta property="og:url" content="https://alexey-fedorov.com">
     <meta property="og:type" content="website">
@@ -21,7 +21,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Alexey Fedorov">
-    <meta name="twitter:description" content="Alexey Fedorov's official website - photos, work, projects, and contact info.">
+    <meta name="twitter:description" content="Alexey Fedorov's official website - photos, portfolio, modeling, and contact info.">
     <meta name="twitter:image" content="https://alexey-fedorov.com/thumbnail.jpg">
   
     <!-- Favicon -->
@@ -35,52 +35,67 @@
     <!-- Website Title -->
     <title>Alexey Fedorov</title>
 
-    <!-- CSS Style -->
-    <style>
-        /* Basic styling */
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #000; /* Dark black */
-            color: #fff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
-            text-align: center;
-        }
+<!-- CSS Style -->
+<style>
+    /* Basic styling */
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000; /* Dark black */
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+        text-align: center;
+    }
 
-        .heading h1 {
-            font-size: 15vh; /* Reduced size for better fit */
-            line-height: 1;
-            margin: 0;
+    .heading h1 {
+        font-size: 15vh; /* Reduced size for better fit */
+        line-height: 1;
+        margin: 0;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: fadeInUp 1s ease forwards;
+    }
+
+    /* Smaller text style */
+    .heading p {
+        font-size: 5vh; /* 3x smaller than the main heading */
+        margin-top: 40px; /* Increased vertical space between the two items */
+        font-family: 'Arial', sans-serif; /* Modern and elegant font */
+        font-weight: lighter; /* Thin, elegant look */
+        text-transform: uppercase; /* Make text all caps */
+        letter-spacing: 7px; /* Add some letter spacing for a luxurious feel */
+        opacity: 0;
+        transform: translateY(30px);
+        animation: fadeInUp 1s ease 0.5s forwards; /* Slight delay for animation */
+    }
+
+    /* Animation */
+    @keyframes fadeInUp {
+        0% {
             opacity: 0;
             transform: translateY(30px);
-            animation: fadeInUp 1s ease forwards;
         }
-
-        /* Animation */
-        @keyframes fadeInUp {
-            0% {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
         }
-    </style>
-</head>
+    }
+</style>
 
 
 <!-- WEBSITE CONTENT -->
 <body>
     <div class="heading">
         <h1>Coming Soon</h1>
+        <p>APRIL 2025</p>
     </div>
 </body>
+
+
 
 
 </html>
