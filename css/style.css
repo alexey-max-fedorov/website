@@ -586,6 +586,7 @@ a:focus {
   transition: all .3s;
 }
 
+/*
 .portfolio_section .portfolio_container .img-box:hover a {
   visibility: visible;
   opacity: 1;
@@ -594,7 +595,7 @@ a:focus {
 .portfolio_section .portfolio_container .img-box:hover::before {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 .portfolio_section .portfolio_container .box-1,
 .portfolio_section .portfolio_container .box-2,
