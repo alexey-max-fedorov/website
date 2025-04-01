@@ -188,6 +188,8 @@
     <!-- end slider section -->
   </div>
 
+
+  
   <!-- Instagram Embed Section -->
 <section class="instagram_section">
   <div class="container-fluid">
@@ -383,15 +385,28 @@
         <div class="heading_container heading_center">
           <h2>New post</h2>
         </div>
-
       </div>
+
+      <!-- Hide this section on mobile devices-->
+      <script async>
+        document.addEventListener("DOMContentLoaded", () => {
+          const isMobile = window.matchMedia("(max-width: 768px)").matches; 
+          const detailBox = document.querySelector(".detail-box.detail_box_common");
+      
+          if (isMobile && detailBox) {
+            detailBox.style.display = "none";
+          }
+        });
+      </script>
+
+
     </div>
   </div>
 </section>
+<!-- End instagram post section -->
 
 
   <!-- about section -->
-
   <section class="about_section ">
     <div class="container-fluid">
       <div class="row">
@@ -415,7 +430,6 @@
       </div>
     </div>
   </section>
-
   <!-- end about section -->
 
   <!-- portfolio section -->
@@ -455,7 +469,7 @@
         </div>
       </div>
       <div>
-        <a href="https://instagram.com/alexeyfedorov._" class="read_btn">
+        <a href="portfolio.html" class="read_btn">
           See More
         </a>
       </div>
