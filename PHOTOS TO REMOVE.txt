@@ -1,0 +1,19 @@
+ALL OF THESE PHOTOS NEED TO BE REMOVED OR REPLACED:
+
+about-img
+crop1
+crop2
+crop3
+crop4
+IMG_6020
+new-slider-img-1
+new-slider-img-2
+new-slider-img-3
+p4
+p5
+
+
+
+PHOTOS THAT ARE GOOD TO GO:
+images/halflight folder
+assets folder
