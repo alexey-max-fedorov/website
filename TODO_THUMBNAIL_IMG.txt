@@ -1,4 +1,0 @@
-Dimensions:
-1200 x 630
-
-images/thumbnail.jpg
